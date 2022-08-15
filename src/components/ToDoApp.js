@@ -50,7 +50,7 @@ const ToDoAp = () => {
 
     return (
         <div className="todo-container">
-            <h1>To Do App With React</h1>
+            <h1>TodoList App With React</h1>
             <form onSubmit={handleSubmit} className="todo-form">
                 <input
                     onChange={handleChange}

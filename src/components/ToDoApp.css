@@ -1,0 +1,99 @@
+
+.todo-container{
+    width: 500px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-form{
+    display: flex;
+    gap: 5px;
+}
+
+.todo-form__input{
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: thin solid #999;
+    outline: none;
+}
+
+.todo-form__button-submit{
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(26, 76, 179);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.todos-list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.todo{
+    padding: 10px;
+    background-color: white;
+    border-radius: 0.2rem;
+}
+
+.todo-title{
+    flex: 1;
+    font-size: 20px;
+}
+
+.todo-form-update, .todo-options{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.button{
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(72, 122, 221);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-delete{
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(169, 26, 26);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.todo-form-update{
+    display: flex;
+    gap: 5px;
+}
+
+.todo-form-update__input{
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: thin solid #999;
+    outline: none;
+}
+
+.todo-form-update__button{
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(26, 76, 179);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
